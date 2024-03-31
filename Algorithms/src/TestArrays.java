@@ -2,7 +2,15 @@ import myarray.DynamicArray;
 
 public class TestArrays {
     public static void main(String[] args) throws Exception {
+
+        long startTime;
+        long endTime;
+        long elapsedTime;
+
         DynamicArray dynamicArray = new DynamicArray(5);
+
+        startTime = System.nanoTime();
+
         dynamicArray.add("A");
         dynamicArray.add("B");
         dynamicArray.add("C");
@@ -22,5 +30,9 @@ public class TestArrays {
         System.out.println("size: " + dynamicArray.size);
         System.out.println("capacity: " + dynamicArray.capacity);
         System.out.println("empty: " + dynamicArray.isEmpty());
+
+        endTime = System.nanoTime();
+        elapsedTime = endTime - startTime;
+        System.out.println(elapsedTime);
     }
 }
