@@ -1,4 +1,4 @@
-package myarray;
+package myutils;
 
 public class DynamicArray {
   public int size;
