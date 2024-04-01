@@ -1,0 +1,17 @@
+                  iteration             recursion
+implementation    uses loops            calls itself
+
+state             control index         parameter values
+                  (int steps = 0)       walk (int steps)
+
+progression       move toward value     converge towards
+                  in condition          base case
+
+termination       index                 base case = true
+                  satisfies
+                  condition
+
+size              more code             less code
+                  less memory           more memory
+
+speed             faster                slower
