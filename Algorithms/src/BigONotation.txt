@@ -21,3 +21,84 @@ O(n^2) = quadratic time
 
 O(n!) = factorial time
 - traveling salesman problem
+
+https://www.youtube.com/watch?v=RBSGKlAvoiM&list=WL&index=89&t=9s
+Big-O Notation
+
+n - The size of the input.
+Complexities ordered in from smallest to largest
+
+    Constant Time: O(1)
+ Logarithmic Time: O(log(n))
+      Linear Time: O(n)
+Linearithmic Time: O(nlog(n))
+     Quadric Time: O(n^2)
+       Cubic Time: O(n^3)
+ Exponential Time: O(b^n), b>1
+   Factorial Time: O(n!)
+
+----- Array -----------------------------
+
+Static Array vs Dynamic Array
+            Static  Dynamic
+Access      O(1)    O(1)
+Search      O(n)    O(n)
+Insertion   N/A     O(n) 
+Appending   N/A     O(1)
+Deleting    N/A     O(n)
+
+----- Singly & Double Linked list -----------------------------
+
+Singly & Double Linked lists
+Pros and Cons
+
+                Pros                      Cons
+Singly Linked   Used less memory          Cannot easily access
+                Simpler implementation    previous elements
+
+Doubly Linked   Can be traversed          Takes 2x memory
+                backwards
+
+                    Singly Linked     Doubly Linked
+Search              O(n)              O(n)
+Insert at head      O(1)              O(1)
+Insert at tail      O(1)              O(1)
+Remove at head      O(1)              O(1)
+Remove at tail      O(n)              O(1)
+Remove in middle    O(n)              O(n)
+
+----- Stack -------------
+
+Stack Complexity
+Pushing     O(1)
+Popping     O(1)
+Peeking     O(1)
+Searching   O(n)
+Size        O(1)
+
+----- Queue -------------
+
+Queue Complexity
+Enqueue   O(1)
+Dequeue   O(1)
+Peeking   O(1)
+Contains  O(n)
+Removal   O(n)
+Is Empty  O(1)
+
+----- Priority Queue -------------
+
+Complexity PQ with binary heap
+Binary Heap Construction  O(n)
+Pooling                   O(log(n))
+Peeking                   O(1)
+Adding                    O(log(n))
+
+
+
+
+
+
+------------------
+------------------
+------------------
